@@ -1,6 +1,9 @@
-body {
+html, body {
     font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 
 
 /*---Styling mobile*/
@@ -93,23 +96,39 @@ body {
         color: black;
     }
 
-/*STYLED UNTIL HERE*/
 
-    /*Styling main*/
+
+    /*Styling part1*/
 
     .content {
-        max-width: 1200px;
         margin: auto;
         text-align: center;
     }
 
     .part1 h1 {
-        font-size: 19pt;
+        font-size: 20pt;
         font-weight: bold;
     }
 
     .part1 p {
-        font-size: 10px;
+        font-size: 13.5px;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .part1 h3 {
+        font-weight: 500;
+        font-size:15pt;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+    .part1 {
+        padding-bottom: 40px;
     }
     
     /*.line {
@@ -121,7 +140,120 @@ body {
 
 
 
+    /*Styling part2*/
 
+    .part2{
+        background-color: #ef512b;
+        width: 100%;
+        height: 600px;
+    }
+
+    .part2 h1 {
+        font-size: 20pt;
+        font-weight: bold;
+        padding-top: 40px;
+    
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    /*Styling footer*/
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap; 
+        padding: 2rem;
+        background-color: #000;
+        color: #fff;
+        width: 100%;
+    }
+
+    .footer-content1, .footer-content2 {
+        flex: 1 1 300px;
+        max-width: 50%;
+        padding: 1rem;
+    }
+
+    .logo-footer {
+        height: 100px;
+    }
+
+    .footer-content1 p {
+        font-size: 15px;
+    }
+
+
+    .footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+    }
+      
+    .footer li {
+        margin-bottom: 0.5rem;
+    }
+      
+    .footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+      
+    .footer a:hover {
+        text-decoration: underline 1.5px solid;
+    }
+      
+    .social-icons {
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+      
+    .social-icons button {
+        background: none;
+        border: none;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+      
+    .copyright {
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        font-size: 13px;
+    }
     
 
 }
