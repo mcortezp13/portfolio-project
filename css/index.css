@@ -126,7 +126,7 @@ html, body {
     }
 
     .part1 p {
-        font-size: 13.5px;
+        font-size: 15px;
         max-width: 800px;
         margin: 0 auto;
         text-align: center;
@@ -243,6 +243,20 @@ html, body {
 
     /*Styling part3*/
 
+    .q1 {
+        height: 50px;
+        
+    }
+
+    .q2 {
+        height: 50px;
+        
+    }
+
+    .part3 h2 {
+        font-style: italic;
+        font-weight: 600;
+    }
 
 
 
