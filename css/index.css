@@ -40,11 +40,19 @@ html, body {
         font-size: 10px;
         font-weight: 500;
         letter-spacing: 1px;
+        padding-top: 17px;
     }
 
 
 
     /*Styling navbar*/
+    
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 1rem; 
+    }
 
     .logo {
         width: 85px;
@@ -62,6 +70,12 @@ html, body {
     .navbar {
         margin: auto 0;
         padding-top: 45px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 40px;
+        flex-wrap: wrap;
     }
 
     .navbar ul {
@@ -94,6 +108,7 @@ html, body {
         font-size: 7pt;
         font-weight: 400;
         color: black;
+        margin-top: 20px;
     }
 
 
@@ -152,20 +167,81 @@ html, body {
         font-size: 20pt;
         font-weight: bold;
         padding-top: 40px;
+        color:black;
+    }
+
+    .flip-card {
+        background-color: transparent;
+        perspective: 1000px;
+        height: 300px;
+    }
+      
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+      
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+      
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        backface-visibility: hidden;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+      
+    .flip-card-front {
+        background-color: white;
+        color: #000;
+    }
+
+    .flip-card-front img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
     
+      
+    .flip-card-back {
+        background-color: #000;
+        color: white;
+        transform: rotateY(180deg);
+        font-size: 13px;
+    }
 
-
-
-
-
-
-
+    .see-my-work {
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+        margin-top: 20px;
+    }
+      
+    .see-my-work:hover {
+        background-color: white;
+        color: black;
+        text-decoration: none;
     }
 
 
 
-
-
+    /*Styling part3*/
 
 
 
@@ -204,6 +280,11 @@ html, body {
         flex: 1 1 300px;
         max-width: 50%;
         padding: 1rem;
+    }
+
+    .footer-content2 h4 {
+        font-size: 19px;
+        padding-top: 20px;
     }
 
     .logo-footer {
