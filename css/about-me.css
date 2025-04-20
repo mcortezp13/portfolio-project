@@ -120,12 +120,6 @@ html, body {
         text-align: center;
     }
 
-    .content h1 {
-        font-size: 20pt;
-        font-weight: bold;
-        color: #000;
-    }
-
     .about-me {
         display: flex;
         align-items: flex-start;
@@ -173,7 +167,11 @@ html, body {
     }
 
     .bio h4 {
-        
+        font-size: 14pt;
+    }
+
+    .bio-text {
+        font-size: 12pt;
     }
 
     .small-bio {
@@ -182,22 +180,39 @@ html, body {
     }
 
 
+    .social-icons-bio {
+        display: flex;
+        gap: 15px;
+        padding-top: 10px;
+    }
+
+    .social-icons-bio i {
+        color:#ef512b;
+        font-size: 23pt;
+    }
+
+    .social-icons-bio button {
+        border: none;
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
+    .download-resume {
+        background-color: transparent;
+        border: 2px solid #ef512b;
+        color: #ef512b;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+        margin-top: 20px;
+    }
+      
+    .download-resume:hover {
+        background-color: #ef512b;
+        color: black;
+        text-decoration: none;
+    }
 
 
 
