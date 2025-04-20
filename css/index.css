@@ -105,10 +105,10 @@ html, body {
 
     .bymariacortez {
         text-align: left;
-        font-size: 7pt;
+        font-size: 6.5pt;
         font-weight: 400;
         color: black;
-        margin-top: 20px;
+        margin-top: 13px;
     }
 
 
@@ -166,8 +166,8 @@ html, body {
     .part2 h1 {
         font-size: 20pt;
         font-weight: bold;
-        padding-top: 40px;
-        color:black;
+        padding-top: 50px;
+        color:white;
     }
 
     .flip-card {
@@ -257,23 +257,6 @@ html, body {
         font-style: italic;
         font-weight: 600;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
 
 
 
