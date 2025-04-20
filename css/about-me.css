@@ -123,13 +123,63 @@ html, body {
     .content h1 {
         font-size: 20pt;
         font-weight: bold;
+        color: #000;
     }
 
+    .about-me {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;     
+        flex-wrap: wrap;
+        margin: auto;           
+        max-width: 1000px;  
+        gap: 65px;
+    }
 
+    .about-me-photo img {
+        width: 300px;
+        border-radius: 10px;
+        object-fit: cover;
+        
+    }
 
+    .bio {
+        flex: 1;
+        max-width: 600px;
+        text-align: start;
+        color: black;
+    }
 
+    .highlight-name {
+        color: #ef512b;
+        font-weight: 500;
+    }
 
+    .bio h2 {
+        font-weight: 400;
+        font-size:14pt;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: start;
+        padding-bottom: 10px;
+    }
 
+    .bio h3 {
+        font-weight: 500;
+        font-size:20pt;
+        margin: 0 auto;
+        text-align: start;
+        padding-bottom: 10px;
+    }
+
+    .bio h4 {
+        
+    }
+
+    .small-bio {
+        font-size: 11pt;
+        width: 550px;
+    }
 
 
 
