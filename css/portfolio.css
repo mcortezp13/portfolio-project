@@ -1,0 +1,304 @@
+html, body {
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*---Styling mobile*/
+
+@media screen and (max-width:799px) {
+
+}
+
+
+
+
+
+
+/*---Styling desktop*/
+
+@media screen and (min-width:800px) {
+    
+    /*Styling header block*/
+
+    .colour-bar {
+        background-color: black;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .colour-bar p {
+        color:white;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding-top: 17px;
+    }
+
+
+
+    /*Styling navbar*/
+    
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 1rem; 
+    }
+
+    .logo {
+        width: 85px;
+        height: auto;
+        display: block;
+        float: left;
+    }
+
+    .banner {
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .navbar {
+        margin: auto 0;
+        padding-top: 45px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 40px;
+        flex-wrap: wrap;
+    }
+
+    .navbar ul {
+        list-style-type:none;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+    }
+
+    .navbar li {
+        display: inline-block;
+        margin-left: 10px;
+        padding: 15px;
+    }
+
+    .navbar a {
+        text-decoration:none;
+        color: black;
+        font-weight: 400;
+        font-size: 10pt;
+    }
+
+    .navbar a:hover {
+        color: #ef512b;
+        border-bottom: #ef512b 2px solid;
+    }
+
+    .bymariacortez {
+        text-align: left;
+        font-size: 6.5pt;
+        font-weight: 400;
+        color: black;
+        margin-top: 13px;
+    }
+
+
+
+    /*Styling wrapper*/
+
+    .content h1 {
+        font-size: 20pt;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .portfolio-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+
+
+    /*Styling filters*/
+
+    .filters {
+        text-align: center;
+        color: #000;
+        background-color: white;
+        display: flex;
+        gap: 7px;
+        font-size: 10pt;
+    }
+
+    .filters button {
+        border-radius:30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .filters button:hover {
+        color: white;
+        background-color: black;
+    }
+
+
+
+    /*Styling grid with cards*/
+
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+      
+    .project-card {
+        border: 1px solid #bababa;
+        border-radius: 15px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+      
+    .project-card:hover {
+        transform: scale(1.03);
+    }
+      
+    .project-card img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .project-card h3 {
+        font-size: 14pt;
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 500;
+        padding:10px
+    }
+
+    .project-card a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*Styling footer*/
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap; 
+        padding: 2rem;
+        background-color: #000;
+        color: #fff;
+        width: 100%;
+    }
+
+    .footer-content1, .footer-content2 {
+        flex: 1 1 300px;
+        max-width: 50%;
+        padding: 1rem;
+    }
+
+    .footer-content2 h4 {
+        font-size: 19px;
+        padding-top: 20px;
+    }
+
+    .logo-footer {
+        height: 100px;
+    }
+
+    .footer-content1 p {
+        font-size: 15px;
+    }
+
+
+    .footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+    }
+      
+    .footer li {
+        margin-bottom: 0.5rem;
+    }
+      
+    .footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+      
+    .footer a:hover {
+        text-decoration: underline 1.5px solid;
+    }
+      
+    .social-icons {
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+      
+    .social-icons button {
+        background: none;
+        border: none;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+      
+    .copyright {
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        font-size: 13px;
+    }
+
+}
