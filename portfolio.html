@@ -281,26 +281,30 @@
                 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
             </div>
 
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     </main>
 
@@ -348,5 +352,35 @@
     </footer>
 
 </body>
+
+<!--JS script for filters-->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const filterButtons = document.querySelectorAll(".filters button");
+      const cards = document.querySelectorAll(".project-card");
+  
+      filterButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const filter = btn.getAttribute("data-filter");
+  
+          // Optional: highlight active button
+          filterButtons.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+  
+          cards.forEach((card) => {
+            const category = card.getAttribute("data-category");
+  
+            if (filter === "all" || category === filter) {
+              card.style.display = "block";
+            } else {
+              card.style.display = "none";
+            }
+          });
+        });
+      });
+    });
+</script>
+  
 
 </html>
