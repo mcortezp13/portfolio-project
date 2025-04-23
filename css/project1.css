@@ -155,6 +155,10 @@ html, body {
         font-weight: 500;
     }
 
+    .line {
+        border-bottom: #000 3px solid;
+    }
+
 
     /*Styling footer*/
 
