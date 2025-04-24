@@ -163,7 +163,7 @@ html, body {
 
     .social-icons-bio {
         display: flex;
-        gap: 15px;
+        gap: 10px;
         padding-top: 10px;
     }
 
@@ -242,14 +242,13 @@ html, body {
       
     .social-icons {
         display: flex;
-        gap: 0.1rem;
         margin-top: 1rem;
     }
       
     .social-icons button {
         background: none;
         border: none;
-        font-size: 1.2rem;
+        font-size: 11pt;
     }
       
     .copyright {
