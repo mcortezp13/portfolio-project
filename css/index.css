@@ -204,23 +204,107 @@ html, body {
     }
 
     .see-my-work {
-        background-color: transparent;
-        border: 2px solid white;
-        color: white;
+        border: 2px solid black;
+        color: black;
         padding: 10px 20px;
         border-radius: 8px;
         font-weight: 500;
         text-transform: uppercase;
-        transition: all 0.3s ease;
         margin-top: 20px;
+        margin-bottom: 50px;
     }
       
-    .see-my-work:hover {
-        background-color: white;
-        color: black;
-        text-decoration: none;
+
+
+
+    /*Styling part3*/
+
+    .q1 {
+        height: 80px;
+        
     }
 
+    .q2 {
+        height: 80px;
+        
+    }
+
+    .part3 h2 {
+        font-style: italic;
+        font-weight: 600;
+        font-size: 16pt;
+    }
+
+
+
+    /*Styling footer*/
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap; 
+        padding: 2rem;
+        background-color: #000;
+        color: #fff;
+        width: 100%;
+    }
+
+    .footer-content1, .footer-content2 {
+        flex: 1 1 300px;
+        max-width: 50%;
+        padding: 1rem;
+    }
+
+    .footer-content2 h4 {
+        font-size: 10pt;
+        padding-top: 20px;
+    }
+
+    .logo-footer {
+        height: 100px;
+    }
+
+    .footer-content1 p {
+        font-size: 9pt;
+    }
+
+
+    .footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 9pt;
+    }
+      
+    .footer li {
+        margin-bottom: 0.5rem;
+    }
+      
+    .footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+      
+    .social-icons {
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+      
+    .social-icons button {
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+      
+    .copyright {
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        font-size: 9pt;
+    }
 
 
 
