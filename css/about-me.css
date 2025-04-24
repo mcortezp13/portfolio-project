@@ -9,6 +9,272 @@ html, body {
 /*---Styling mobile*/
 
 @media screen and (max-width:799px) {
+    
+    /*Styling header block*/
+
+    .banner {
+        max-width: 799px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .colour-bar {
+        background-color: black;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .colour-bar p {
+        color:white;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding-top: 17px;
+    }
+
+
+
+    /*Styling nav bar*/
+
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 1rem; 
+    }
+
+    .logo {
+        width: 85px;
+        height: auto;
+        display: block;
+        float:left;
+    }
+
+    .navbar {
+        margin: auto 0;
+        padding-top: 45px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 40px;
+        flex-wrap: wrap;
+    }
+
+    .navbar ul {
+        list-style-type:none;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+    }
+
+    .navbar li {
+        display: inline-block;
+        margin-left: 10px;
+        padding: 15px;
+    }
+
+    .navbar a {
+        text-decoration:none;
+        color: black;
+        font-weight: 400;
+        font-size: 11pt;
+    }
+
+    .navbar a:active {
+        color: #ef512b;
+    }
+
+
+    .bymariacortez {
+        text-align: left;
+        font-size: 7.5pt;
+        font-weight: 400;
+        color: black;
+        margin-top: 13px;
+    }
+
+
+
+    /*Styling about me bio*/
+
+    .content {
+        margin: auto;
+        text-align: center;
+    }
+
+    .about-me {
+        justify-content: center;     
+        margin: auto;           
+        width: 80%;
+    }
+
+    .about-me-photo img {
+        width: 250px;
+        object-fit: cover;
+        border-radius: 100%;
+        padding-bottom: 60px;
+    }
+
+    .bio {
+        text-align: start;
+        color: black;
+    }
+
+    .highlight-name {
+        color: #ef512b;
+        font-weight: 700;
+    }
+
+    .bio h2 {
+        font-weight: 400;
+        font-size:13pt;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: start;
+        padding-bottom: 10px;
+    }
+
+    .bio h3 {
+        font-weight: bold;
+        font-size:18pt;
+        margin: 0 auto;
+        text-align: start;
+        padding-bottom: 10px;
+    }
+
+    .bio h4 {
+        font-size: 13pt;
+    }
+
+    .bio-text {
+        font-size: 11pt;
+    }
+
+    .small-bio {
+        font-size: 11pt;
+        width: 550px;
+    }
+
+
+    .social-icons-bio {
+        display: flex;
+        gap: 15px;
+        padding-top: 10px;
+    }
+
+    .social-icons-bio i {
+        color:#ef512b;
+        font-size: 23pt;
+    }
+
+    .social-icons-bio button {
+        border: none;
+    }
+
+
+    .download-resume {
+        background-color: transparent;
+        border: 2px solid #ef512b;
+        color: #ef512b;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+      
+    
+
+    /*Styling footer*/
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap; 
+        padding: 2rem;
+        background-color: #000;
+        color: #fff;
+        width: 100%;
+    }
+
+    .footer-content1, .footer-content2 {
+        flex: 1 1 300px;
+        max-width: 50%;
+        padding: 1rem;
+    }
+
+    .footer-content2 h4 {
+        font-size: 10pt;
+        padding-top: 20px;
+    }
+
+    .logo-footer {
+        height: 100px;
+    }
+
+    .footer-content1 p {
+        font-size: 9pt;
+    }
+
+
+    .footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 9pt;
+    }
+      
+    .footer li {
+        margin-bottom: 0.5rem;
+    }
+      
+    .footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+      
+    .social-icons {
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+      
+    .social-icons button {
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+      
+    .copyright {
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        font-size: 9pt;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -145,7 +411,7 @@ html, body {
 
     .highlight-name {
         color: #ef512b;
-        font-weight: 500;
+        font-weight: 700;
     }
 
     .bio h2 {
