@@ -107,12 +107,12 @@ html, body {
     .content {
         margin: auto;
         text-align: center;
+        width: 80%;
     }
 
-    .about-me {
+    body.about-page .about-me {
         justify-content: center;     
-        margin: auto;           
-        width: 80%;
+        margin: auto;
     }
 
     .about-me-photo img {
@@ -190,7 +190,7 @@ html, body {
         margin-top: 20px;
     }
       
-    
+
 
     /*Styling footer*/
 
