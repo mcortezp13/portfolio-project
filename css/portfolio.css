@@ -143,6 +143,9 @@ html, body {
         border-radius:30px;
         padding-left: 10px;
         padding-right: 10px;
+        color: #000;
+        background-color: white;
+        border: #000 2px solid;
     }
 
 
