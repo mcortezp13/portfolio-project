@@ -155,13 +155,11 @@ html, body {
 
     .bio-text {
         font-size: 11pt;
-        
     }
 
     .small-bio {
         font-size: 11pt;
     }
-
 
     .social-icons-bio {
         display: flex;
@@ -177,7 +175,6 @@ html, body {
     .social-icons-bio button {
         border: none;
     }
-
 
     .download-resume {
         background-color: transparent;
