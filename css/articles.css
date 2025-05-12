@@ -117,7 +117,7 @@ html, body {
         color: black;
     }
 
-    .content h4 {
+    .content p {
         font-size: 11pt;
         font-weight: 400;
         text-align: center;
@@ -126,80 +126,11 @@ html, body {
 
 
 
-    /*Styling spotify player*/
-
-    .spotify-player {
-        margin: 20px auto;
-        width: 80%;
-    }
-
-    .spotify-player iframe {
-        height: 450px;
-    }
+    
+      
 
 
 
-    /*Styling journal*/
-
-    .bg-journal {
-        background-color: #f5c018;
-        height: auto;
-        width: 0 auto;
-    }
-
-    .journal-grid {
- 
-        padding: 1rem;
-    }
-      
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: 1.5rem;
-    }
-      
-    .entry {
-        background: white;
-        border-radius: 8px;
-        padding: 1.2rem;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-        cursor: pointer;
-        width: 80%;
-        margin: auto;
-        
-    }
-      
-    .entry:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 6px 12px rgba(0,0,0,0.08);
-    }
-      
-    .entry h3 {
-        font-size: 13pt;
-        font-weight: 500;
-        margin-bottom: 0.5rem;
-        color: #000;
-    }
-      
-    .date {
-        font-size: 0.85rem;
-        color:#515151;
-        margin-bottom: 0.75rem;
-    }
-      
-    .excerpt {
-        font-size: 10.5pt;
-        line-height: 1.5;
-        color:black;
-    }
-      
-    .articles {
-        text-decoration: none;
-        
-    }  
-   
-      
     
     /*Styling footer*/
 
@@ -373,6 +304,11 @@ html, body {
 
     /*Styling H1 and H4*/
 
+    .content {
+        width: 60%;
+        margin: auto;
+    }
+
     .content h1 {
         font-size: 20pt;
         font-weight: bold;
@@ -382,92 +318,30 @@ html, body {
         color: #000;
     }
 
-    .content h4 {
+    .content p {
         font-size: 13pt;
         font-weight: 500;
         text-align: center;
         color: #000;
     }
 
-
-
-    /*Styling spotify player*/
-
-    .spotify-player {
-        margin: 20px auto;
-        max-width: 600px;
-    }
-
-    .spotify-player iframe {
-        height: 450px;
-    }
-
-
-
-    /*Styling journal*/
-
-    .bg-journal {
-        background-color: #f5c018;
-        height: 570px;
-    }
-
-    .journal-grid {
-        max-width: 1200px;
-        margin: 4rem auto;
-        padding: 1rem;
-    }
-      
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: 1.5rem;
-    }
-      
-    .entry {
-        background: white;
-        border-radius: 8px;
-        padding: 1.2rem;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-        cursor: pointer;
-    }
-      
-    .entry:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 6px 12px rgba(0,0,0,0.08);
-    }
-      
-    .entry h3 {
-        font-size: 13.5pt;
-        font-weight: 500;
-        margin-bottom: 0.5rem;
+    .content h3 {
         color: #000;
+        font-size: 12pt;
+        text-align: start;
     }
-      
-    .date {
-        font-size: 0.85rem;
+
+    .content h4 {
         color:#515151;
-        margin-bottom: 0.75rem;
+        font-size: 11pt;
+        font-weight: 400;
     }
-      
-    .excerpt {
-        font-size: 10.5pt;
-        line-height: 1.5;
-        color:black;
-    }
-      
-    .articles {
-        text-decoration: none;
-        
-    }  
-   
+
+
+
+    
       
       
-
-
-
-
-
 
 
 
